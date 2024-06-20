@@ -1,0 +1,16 @@
+{
+	"api_key": {
+		"display_name": "API Key",
+		"description": "AazcTd4TD0MS17jbV56d",
+		"secure": true,
+		"type": "text",
+		"required": true
+	},
+	"subdomain": {
+		"display_name": "Subdomain",
+		"type": "text",
+		"description": "h4h",
+        "required": true
+	}
+}
+  

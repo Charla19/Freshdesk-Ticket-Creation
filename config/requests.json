@@ -1,0 +1,26 @@
+{
+    "createTicket": {
+      "schema": {
+        "protocol": "https",
+        "method": "POST",
+        "host": "<%= iparam.subdomain %>.freshdesk.com",
+        "path": "/api/v2/tickets",
+        "headers": {
+          "Authorization": "Basic <%= encode(iparam.api_key) %>",
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    "getTicketFields": {
+      "schema": {
+        "protocol": "https",
+        "method": "GET",
+        "host": "<%= iparam.subdomain %>.freshdesk.com",
+        "path": "/api/v2/admin/ticket_fields",
+        "headers": {
+          "Authorization": "Basic <%= encode(iparam.api_key) %>",
+          "Content-Type": "application/json"
+        }
+      }
+    }
+}
